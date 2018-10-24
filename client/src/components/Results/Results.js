@@ -18,7 +18,7 @@ export default class Results extends Component {
 
         return(
           <EachResult title={article.title} url={article.url} date={article.date} id={article.articleId} key={article.articleId}
-            image={`${article.image? "https://static01.nyt.com/"+ article.image.url : "http://www.bsmc.net.au/wp-content/uploads/No-image-available.jpg" }`}
+            image={`${article.image? "https://static01.nyt.com/"+ article.image.url : "https://musicheals.ca/wp-content/uploads/2016/10/no-image-available.jpg" }`}
           />
         )
       });
