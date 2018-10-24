@@ -50,7 +50,7 @@ console.log("Aboooo",this.refs)
               <div className="row">
                 <div className="input-field col s12">
                 
-                  <label for="topic">Article Topic</label>
+                  <label htmlFor="topic">Article Topic</label>
                   <input type="text" ref="topic" id="topic" required="required" className="validate"/>
                 </div>
               </div>
@@ -70,7 +70,7 @@ console.log("Aboooo",this.refs)
               <div className="row">
                 <div className="input-field col s12">
                   
-                  <label for="startYear">Start Year (Optional)</label>
+                  <label htmlFor="startYear">Start Year (Optional)</label>
                   <input type="text" ref="startYear" className="datepicker" id="startYear"/>
                 </div>
               </div>
@@ -78,7 +78,7 @@ console.log("Aboooo",this.refs)
               <div className="row">
                 <div className="input-field col s12">
                   
-                  <label for="endYear">End Year (Optional)</label>
+                  <label htmlFor="endYear">End Year (Optional)</label>
                   <input type="date" ref="endYear" className="datepicker" id="endYear"/>
                 </div>
               </div>

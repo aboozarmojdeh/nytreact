@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import API from '../../utils/API';
 import SavedResult from '../../components/SavedResult';
 import NavBar from '../../components/NavBar';
@@ -58,7 +58,7 @@ class Saved extends Component {
       <NavBar/>
       <div className = "container">
         {this.state.savedArticles? (
-          <div style={{"margin-top": "20px"}}>
+          <div style={{"marginTop": "20px"}}>
             <div className="panel panel-primary">
               <div className="panel-heading">
                 <h3 className="panel-title"><strong><i className="fa fa-table"></i> Results </strong></h3>

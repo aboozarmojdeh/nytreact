@@ -37,8 +37,8 @@ export default class EachResult extends Component {
         <br/>
         <strong> ID: </strong> {this.props.id}
         <br/>
-        {this.state.saved? (<button style={{"margin-top" : "15px"}} id={this.props.id} className="btn btn-primary right-align center"> Article Liked and Saved </button>):
-          (<button style={{"margin-top" : "15px"}} id={this.props.id} onClick={this.save} className="btn btn-success right-align center"> Like </button>)
+        {this.state.saved? (<button style={{"marginTop" : "15px"}} id={this.props.id} className="btn btn-primary right-align center"> Article Liked and Saved </button>):
+          (<button style={{"marginTop" : "15px"}} id={this.props.id} onClick={this.save} className="btn btn-success right-align center"> Like </button>)
         }
 
       </li>

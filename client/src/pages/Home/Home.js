@@ -25,7 +25,7 @@ class Home extends Component {
   searchArticles = query => {
     API.search(query).then(res => {
     let articlesArray = [];
-    console.log("kos kesh:", res.data.response.docs)
+    console.log("docs:", res.data.response.docs)
     res.data.response.docs.map(({snippet, web_url, pub_date, _id, multimedia}) => {
         articlesArray.push({title: snippet, url: web_url, date: pub_date, articleId: _id , image: multimedia[2]});
       });

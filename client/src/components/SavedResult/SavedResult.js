@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import API from '../../utils/API';
 
 export default class SavedResult extends Component {
 
@@ -29,8 +28,8 @@ export default class SavedResult extends Component {
         <br/>
         <strong> ID: </strong> {this.props.articleId}
         <br/>
-        {this.state.deleted? (<button style={{"margin-top" : "10px"}} id={this.props.id} className="btn btn-primary right-align"> Article Deleted </button>):
-          (<button style={{"margin-top" : "10px"}} id={this.props.id} onClick={this.delete} className="btn btn-success right-align"> Dislike </button>)
+        {this.state.deleted? (<button style={{"marginTop" : "10px"}} id={this.props.id} className="btn btn-primary right-align"> Article Deleted </button>):
+          (<button style={{"marginTop" : "10px"}} id={this.props.id} onClick={this.delete} className="btn btn-success right-align"> Dislike </button>)
         }
 
       </li>
