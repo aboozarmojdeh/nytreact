@@ -1,0 +1,26 @@
+.footer {
+  background-color: black;
+  -webkit-box-shadow: 0 -14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 -14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  padding: 10px 0;
+  position:relative;
+  /* bottom:10px; */
+  /* margin-bottom:10px; */
+}
+.myFoooterLink{
+  color:#28a745;
+}
+.myFoooterLink:hover{
+  color:grey;
+
+
+}
+.footer .copyRight{
+
+  padding-left:100px;
+
+}
+
