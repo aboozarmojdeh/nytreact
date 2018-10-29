@@ -27,13 +27,14 @@ class Home extends Component {
     let articlesArray = [];
     console.log("docs:", res.data.response.docs)
     res.data.response.docs.map(({snippet, web_url, pub_date, _id, multimedia}) => {
-        articlesArray.push({title: snippet, url: web_url, date: pub_date, articleId: _id , image: multimedia[2]});
+        articlesArray.push({title: snippet, url: web_url, date: pub_date, articleId: _id , image: multimedia[2]})
+        console.log("new arrraaaaayyy", articlesArray );
       });
 
 
     this.setState(prevState => ({
       articles: [...prevState].concat(articlesArray).splice(0, this.state.limit)
-    }), console.log("golabiiii",this.state.limit))
+    }), console.log(this.state))
 
     console.log("state is " + JSON.stringify(this.state));
   }).catch(err => console.log(err));

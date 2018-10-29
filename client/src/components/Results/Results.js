@@ -36,7 +36,6 @@ export default class Results extends Component {
               <div className="panel-body" id="well-section">
                 <ol className="collection with-header">
                     {articleResults}
-                    {console.log("article results:",articleResults)}
                 </ol>
               </div>
             </div>
