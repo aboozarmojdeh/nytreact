@@ -27,11 +27,3 @@ If you wish to clone the app down to your local machine...
   5. The app will automatocally open the `localhost:3000` in your browser.
   6. Enjoy!!!
 
-
-
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> e60be01ad8c8e302c1d438caff392207b1a85464
